@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0332/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0332/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 白雲仙人靈草歌
+  date: '2015-08-29 00:56:12.944645'
+  source:
+    repository: kanripo
+    path: KR5c0332
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0332_000-ZTDZ.yaml, hash: 'sha256:52168c642444f1c641b17ae7b460c1a91b303e6b8b30831430c53dc4500f1588'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0332_000-ZTDZ.markers.yaml, hash: 'sha256:a6d81e850184d96c7b608a679ba95f97907453e2ebe6da8ee6cff4446b8508d4'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0332_SJB_000-190328c
+    span:
+    - body
+    - 0
+    - 2355
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:a9feedbc2264f02fc865cae9105222381f3a04b1998d4d830c57ebf2ec00885c
